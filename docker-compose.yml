@@ -1,0 +1,16 @@
+version: "3.9"
+
+services:
+  photo-app: 
+    image: 977977/ava-photos:1.2
+    ports:
+      - 3020:3000
+    environment:
+      REACT_APP_FLICKR_API: ${REACT_APP_FLICKER_API}
+    secrets:
+      - flickr
+secrets:
+   flickr: 
+    external: true
+    name: flickr
+  
