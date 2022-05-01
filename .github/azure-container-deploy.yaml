@@ -34,5 +34,6 @@ jobs:
             registry-username: ${{ secrets.REGISTRY_USERNAME }}
             registry-password: ${{ secrets.REGISTRY_PASSWORD }}
             name: ava-photos
-
+            ports: 80, 3000
+            secure-environment-variables: REACT_APP_FLICKR_API=${{ secrets.REACT_APP_FLICKR_API}}
             location: 'central india'
