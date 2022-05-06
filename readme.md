@@ -69,7 +69,7 @@ Create Azuure Container Registry ([Instructions](https://learn.microsoft.com/en-
 `RESOURCE_GROUP`
 
 
-***4.  Test the worflow and find your application**
+**4.  Test the worflow and find your application**
 
 Test the CI/CD Pipeline by updating any of the codebase content and pushing the commits to main branch. Example -> change the website title under public/index.html
 
@@ -82,7 +82,7 @@ If everything is successful, go to Azure Container Instance and find the FQDN or
 
     20.219.173.119
 
-```
+
 
 
 ## Building you own image (Local Testing)
